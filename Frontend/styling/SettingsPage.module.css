@@ -1,0 +1,331 @@
+.settingsPage {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+
+}
+
+.settingsLeftNav {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.settingsNav {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+
+}
+
+.settingsNav ul {
+}
+
+.settingsNav li {
+    width: 100%;
+    display: flex;
+    padding-block: .5rem;
+    padding-left: 1rem;
+}
+
+.settingsNav ul li:hover {
+    background: white;
+}
+
+.eventArea {
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 0 0 10px 10px; 
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+}
+
+.eventAreaHeader {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; /* Added padding for better spacing */
+    color: white;
+}
+
+.eventAreaHeader h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.eventAreaBody {
+    height: 100%;
+    overflow-y: auto;
+    max-height: 65vh;
+}
+
+.eventTextArea {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.message:hover {
+    background-color: #f9f9f9; /* Hover effect */
+}
+
+.eventTextArea p {
+}
+
+.type, .typeError, .typeImportant {
+    font-weight: 600;
+    padding-right: 10px;
+    margin-bottom: 8px;
+}
+
+.typeError {
+    color:red;
+}
+
+.typeImportant {
+    color: orange;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: .3rem;
+}
+.settingsArea {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    gap: 2rem;
+    flex-grow: 1;
+}
+
+.settingsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background: white;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-radius: .6rem;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.settingsHeader {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    display:flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settingsHeader h1 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.settingsHeader p {
+    font-size: .85rem;
+    margin-bottom: 1rem;
+    color:gray;
+}
+
+.settingsContainer input {
+    max-width: 50%;
+}
+
+.settingsContainer button {
+    background-color: #0973FC; /* Default background color */
+    color: white;
+    margin-top: 1rem;
+}
+
+.settingsContainer button:hover {
+    background-color: #0a68e2; /* Default background color */
+    color: white;
+}
+
+.selected {
+  background-color: white; /* Set the background color to white */
+  color: #4d8bff !important; /* Set the text color */
+}
+
+
+
+.subscriptionIcon {
+    width: 100px;
+}
+
+.imGettingTiredOfComingUpWithNames {
+    display:flex;
+    flex-direction: column;
+    margin-left:1rem;
+    align-items: flex-start;
+}
+
+.imGettingTiredOfComingUpWithNames h1 {
+    margin-bottom: -10px;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+.imGettingTiredOfComingUpWithNames p {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.settingsBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.settingsBodyChild {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.settingsArea a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.looseText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.looseText h1 {
+    text-align: left;
+}
+
+.looseText h1 input {
+    margin: 0;
+    padding: 0;
+}
+
+.verificationCodeButton {
+    background: orange !important;
+}
+
+.qrContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.qrContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    margin-left:auto;
+}
+
+.qrTextArea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: auto;
+    align-items: center;
+    padding-inline: 2rem;
+}
+
+.qrTextArea h1 {
+    border-bottom:1px solid rgb(219, 219, 219);
+    padding-bottom: 1rem;
+    width: 80%;
+}
+
+.qrTextArea ul {
+    list-style-type: disc;
+}
+
+.qrContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.toggleArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggleArea h2 {
+    margin-right: 1rem;
+}
+
+.toggleButton {
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggleButtonCircle {
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: left 0.3s;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.active .toggleButtonCircle {
+  left: 31px;
+}
+
+.regionsArea {
+    max-height: 30vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: rgb(238, 238, 238);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+    width: 25%;
+}
+
+.settingsPage button {
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    border-radius: .2rem;
+}

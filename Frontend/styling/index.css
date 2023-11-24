@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;400&display=swap');
+
+body{
+  @apply google-text font-light bg-gray-100;
+}
+
+.page{
+  @apply my-5 space-y-5 items-center mx-3 md:mx-8 flex flex-col;
+}
+
+.container{
+  @apply flex flex-col h-fit bg-white shadow shadow-gray-400 rounded-md;
+}
+
+.container-header {
+  @apply flex flex-col h-fit bg-gray-200 shadow shadow-gray-400 rounded-t-md justify-center items-center google-text font-medium;
+}
+
+.container-hover:hover {
+  @apply bg-gray-100 cursor-pointer;
+}
+
+.blurred {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(185, 185, 185, .5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.chart-container{
+  @apply w-full h-fit p-5 hover:bg-zinc-50 transition-all text-sm space-y-5 rounded-md border border-gray-300;
+}
+
+.google-text{
+  font-family: 'Geologica', sans-serif;
+}
+
+.navbar-option{
+  @apply hover:text-yellow-600 hover:underline  px-2 whitespace-nowrap google-text;
+}
+
+.sidebar-option{
+  @apply lg:bg-transparent google-text font-normal text-base bg-blue-800 p-3 drop-shadow rounded-md flex items-center text-white stroke-white hover:text-yellow-600 hover:stroke-yellow-600 h-full;
+}
+
+.primary-button{
+  @apply px-3 py-1.5 text-sm h-fit w-fit rounded-md bg-yellow-600 focus:ring ring-yellow-400 text-yellow-950 hover:opacity-90 google-text font-normal;
+}
+
+.primary-button-disabled{
+  @apply px-3 py-1.5 text-sm h-fit w-fit rounded-md bg-yellow-600 text-yellow-950 opacity-75 google-text font-normal;
+}
+
+.secondary-button{
+  @apply px-3 py-1.5 text-sm h-fit w-fit rounded-md text-white stroke-white focus:ring ring-blue-300 bg-blue-800 hover:bg-opacity-80 google-text font-normal;
+}
+
+.secondary-button-disabled{
+  @apply px-3 py-1.5 text-sm h-fit w-fit rounded-md text-white stroke-white bg-blue-800 bg-opacity-20 google-text font-normal;
+}
+
+.dropdown-button{
+  @apply flex flex-row items-center px-3 py-1.5 space-x-2 text-sm rounded-md bg-blue-900 hover:opacity-90 text-white google-text font-normal;
+}
+
+.dropdown-option{
+  @apply px-1 py-2 text-xs break-words border border-transparent hover:border-gray-400 w-full transition-all;
+}
+
+.dropdown-option-disabled{
+  @apply px-1 py-2 text-xs break-words border border-transparent text-gray-400 w-full transition-all; 
+}
+
+.green-tag{
+  @apply px-3 py-1.5 text-sm cursor-default rounded-md bg-green-700 text-white bg-opacity-80;
+}
+
+.red-tag{
+  @apply px-3 py-1.5 text-sm cursor-default rounded-md bg-red-700 text-white bg-opacity-80;
+}
+
+.input-text{
+  @apply w-full rounded-md border border-gray-300 hover:border-yellow-600 p-1 bg-gray-50 placeholder-gray-500 text-sm focus:outline-none focus:border-yellow-600 transition-all;
+}
+
+.input-text-disabled{
+  @apply w-full rounded-md border p-1 bg-transparent text-gray-500 placeholder-gray-500 text-sm focus:outline-none;
+}
+
+.table-row-body{
+  @apply border-t-2 border-gray-200 hover:bg-gray-100 transition-all;
+}
+
+.table-row-head{
+  @apply bg-gray-200 uppercase text-gray-700;
+}
+
+.selected-item{
+  @apply px-2 text-sm rounded-md border border-gray-300 text-gray-700 opacity-90;
+}
+
+.required{
+  @apply text-red-900;
+}
+
+.error{
+  @apply bg-red-300 rounded-md p-2 google-text text-xs break-words;
+}
+
+.button {
+  @apply p-4 py-2 rounded-md break-words text-white;
+  
+}

@@ -1,0 +1,48 @@
+.topBarContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: flex-end;
+    min-height: 3rem;
+}
+
+.contentArea {
+    display: flex;
+    position: relative;
+}
+
+.dropDownButton {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+
+.accountDropDown, .regionDropDown {
+    background: rgb(48, 48, 48);
+    position: absolute;
+    overflow-y: scroll;  /* Allow vertical scrolling */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    top: 2.5rem;
+}
+
+.accountDropDown {
+    width: 100%;
+    font-size: .9rem;
+}
+
+.accountDropDown button {
+    margin-left: auto;
+    text-align: CENTER;
+}
+
+.regionDropDown {
+    
+    right: 13rem;
+    max-height: 50vh;
+    min-width: 175px;
+    
+}

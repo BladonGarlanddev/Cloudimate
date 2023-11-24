@@ -1,0 +1,19 @@
+.chartHovered .closeIcon {
+  /* styles when hovered */
+  color: rgb(0, 0, 0); /* example color change on hover */
+}
+
+.chartHeader {
+    display: flex;
+}
+
+
+
+.closeIcon {
+  /* default styles */
+  margin-left: auto;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.1s;
+  color: white;
+}

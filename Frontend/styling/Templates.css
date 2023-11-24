@@ -1,0 +1,44 @@
+.nav-buttons {
+    border-radius: 7px ;
+    box-shadow: 0 0 2px rgb(48, 48, 48);
+    display: flex;
+    color: rgb(0, 0, 0);
+
+}
+
+._active {
+    background: rgb(182, 182, 182);
+    padding: 6px;
+    border-radius: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.inactive {
+    padding: 6px;
+    margin: 0;  
+    border-radius: 0;
+    background: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+
+}
+
+._button {
+    padding: 6px;
+    margin: 0;  
+    border-radius: 0;
+}
+
+.button:first-of-type {
+    border-top-left-radius: 7px; /* This sets the top-left corner radius */
+    border-bottom-left-radius: 7px;
+}
+
+.button:last-of-type {
+    border-top-right-radius: 7px; /* This sets the top-left corner radius */
+    border-bottom-right-radius: 7px;
+}
+
+.inactive:hover {
+    background: rgb(190, 190, 190);
+}

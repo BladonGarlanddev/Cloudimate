@@ -1,0 +1,25 @@
+.resourceBar {
+  max-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  background: rgb(238, 238, 238);
+  height: 100%;
+  flex-grow: 1;
+  align-items: center;
+  margin-bottom: 0;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.resourceContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+}
+
+.resourceIcon {
+  width: 5rem;
+}

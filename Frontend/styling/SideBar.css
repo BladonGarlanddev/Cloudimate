@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom-sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  min-width: 150px;
+  width: 10%;
+  background: #0973FC;
+  overflow: hidden;
+  box-shadow: none !important;
+  flex-grow: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+.custom-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 2rem;
+  padding-top: 120px;
+}
+
+/* Style for the Cloud Control logo */
+.custom-icon {
+  /* Add styles for the logo */
+  margin-top: 20px; /* Adjust the top margin to your preference */
+}
+
+/* Style for the link buttons */
+.custom-link-button {
+  /* Add styles for the link buttons */
+  width: 100%;
+  display: flex;
+  
+}
+
+/* Style for link text */
+.custom-link-text {
+  /* Add styles for link text */
+  width: 100%;
+  color: white;
+}
+
+
+
+/* Style for hover text */
+.custom-hover-text {
+  /* Add styles for hover text */
+}
+
+.cloud-logo {
+  position: absolute;
+  top: 1rem; /* Adjust the spacing from the top as per your needs */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 80px;
+  z-index: 10;
+}
+
+.cloud-logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem !important;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.cloud-logo h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.cloud-logo h1, .cloud-logo h2 {
+  width: 100%;
+  text-align: center;
+  /* other styles */
+}

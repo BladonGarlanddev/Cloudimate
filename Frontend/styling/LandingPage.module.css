@@ -1,0 +1,291 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Set a background color and font styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+.landingPage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #0973FC;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the header and navigation */
+header {
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px 20px;
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  width: 100%;
+  box-shadow: 10px 1px 1px rgba(0, 36, 102, 0.1);
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 100px;
+  margin: -20px;
+  margin-left: 50px;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ccc; /* Light gray on hover */
+}
+
+.landingPageTextArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7 !important;
+    font-weight: 500;
+    padding-bottom: 10rem;
+    padding-inline: 2rem;
+}
+
+.banner img {
+  padding-top: 10rem;
+  height: 100vh;
+}
+
+.bannerContainer {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.5rem; /* This makes the container fit the size of the image */
+}
+
+.overlayText {
+  position: absolute;
+  top: 30%; /* Centers the text vertically */
+  left: 2%; /* Centers the text horizontally */
+  color: #fff; /* Assuming white text, but adjust as needed */
+  font-size: 4rem; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+  text-align: center; /* Optional: Adds a semi-transparent background for better readability */
+  padding: 10px; /* Optional: Adds some space around the text */
+}
+
+.overlayText p {
+  top: 90%; /* Centers the text vertically */
+  left: 20%; /* Centers the text horizontally */
+  color: #e7e7e7; /* Assuming white text, but adjust as needed */
+  font-size: 1.75rem; /* Adjust as needed */
+  font-weight: 400; /* Adjust as needed */
+  padding: 10px; /* Optional: Adds some space around the text */
+}
+
+.overlayText button {
+  top: 80%; /* Centers the text vertically */
+  left: 20%; /* Centers the text horizontally */
+  color: #333333; /* Assuming white text, but adjust as needed */
+  font-size: 1.75rem; /* Adjust as needed */
+  font-weight: 400; /* Adjust as needed */
+  padding-inline: 15px; /* Optional: Adds some space around the text */
+  background: #f1aa53;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+}
+
+.overlayText button:hover {
+  background: #e49842;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.12);
+}
+
+.overlayText button:focus {
+  box-shadow: 0 0 0 3px rgba(241, 170, 83, 0.4);
+}
+
+.welcome {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-block: 3rem;
+  height: 200px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.welcome h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/* Style the features section */
+.features {
+  padding-bottom: 3rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-inline: 2rem;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-inline: 2rem;
+  max-width: 20%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  padding:20px;
+
+}
+
+.featureWhite {
+  background-color: #0973FC;
+}
+
+.feature h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.feature p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.actionAreaContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionAreaContainer h1 {
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.freeTrialButton {
+  background: #0973FC;
+  color: white;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.lps {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flagShipTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-block: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.flagShipText {
+  display: flex;
+  max-height: 50vh;
+  font-size: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.etss {
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 40%;
+}
+
+.graphTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-block: 3rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.graphText {
+  display: flex;
+  max-height: 40vh;
+  font-size: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.gss {
+  max-height: 70vh;
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+  }
+
+  .ctaButtons button {
+    width: 100%;
+  }
+}

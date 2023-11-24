@@ -1,0 +1,27 @@
+.iconStyle {
+    width: 50px;
+}
+
+.resourceSelectBody {
+    padding-inline: 1rem;
+}
+
+.closeIcon {
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.1s;
+  color: white;
+  background: #0973FC;
+  border-radius: .5rem;
+  padding-inline: 1rem;
+  padding-block: .5rem;
+  
+}
+
+.footer {
+  display: flex;
+  align-items: center; 
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}

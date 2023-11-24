@@ -1,0 +1,28 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 3 columns */
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.gridCell {
+  width: 100px; /* or any size you prefer */
+  height: 100px;
+  border: 1px dashed #ccc;
+  background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyGrid {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    grid-column: 1 / -1; /* Span all columns */
+    height: 10vh;
+}

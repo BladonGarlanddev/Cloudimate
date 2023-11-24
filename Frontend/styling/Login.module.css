@@ -1,0 +1,50 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    align-items: center;
+    max-width: 40vw;
+}
+
+.textArea {
+    font-size: 12px;;
+}
+
+.textArea .link {
+    color: blue;
+}
+
+.loginButton {
+    color: white;
+    background: #0973FC;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding:.5rem;
+    border-radius: .2rem;
+}
+
+.loginButton:hover {
+    color: rgb(235, 235, 235);
+    background: #0967e2;
+}
+
+.googleSignin {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, .2);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.loginHead img {
+    width: 100px;
+}
+
+.loginError {
+    padding-bottom: 1rem;
+    color: red;
+}
+
